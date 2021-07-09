@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f744a5f-a10b-4a0a-a6fb-7638235ca032" name="Default Changelist" comment="" />
+    <list default="true" id="4f744a5f-a10b-4a0a-a6fb-7638235ca032" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/maven-samples/single-module/src/test/java/com/example/TestGreeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven-samples/single-module/src/test/java/com/example/TestGreeter.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +26,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maven-samples/single-module/target/test-classes/com/example/TestGreeter.class">
+        <entry file="file://$PROJECT_DIR$/maven-samples/single-module/src/test/java/com/example/TestGreeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <folding>
-                <element signature="e#0#1166#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -38,6 +38,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/maven-samples/single-module/src/test/java/com/example/TestGreeter.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -48,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1325" />
@@ -84,23 +91,33 @@
               <item name="Jenkins_Upgradev3" type="462c0819:PsiDirectoryNode" />
               <item name="maven-samples" type="462c0819:PsiDirectoryNode" />
               <item name="single-module" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jenkins_Upgradev3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jenkins_Upgradev3" type="462c0819:PsiDirectoryNode" />
               <item name="maven-samples" type="462c0819:PsiDirectoryNode" />
               <item name="single-module" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Jenkins_Upgradev3" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jenkins_Upgradev3" type="462c0819:PsiDirectoryNode" />
               <item name="maven-samples" type="462c0819:PsiDirectoryNode" />
               <item name="single-module" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Jenkins_Upgradev3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Jenkins_Upgradev3" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-samples" type="462c0819:PsiDirectoryNode" />
+              <item name="single-module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -108,8 +125,9 @@
               <item name="Jenkins_Upgradev3" type="462c0819:PsiDirectoryNode" />
               <item name="maven-samples" type="462c0819:PsiDirectoryNode" />
               <item name="single-module" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -150,7 +168,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -184,6 +202,16 @@
     <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/maven-samples/single-module/target/test-classes/com/example/TestGreeter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/maven-samples/single-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -191,12 +219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven-samples/single-module/target/test-classes/com/example/TestGreeter.class">
+    <entry file="file://$PROJECT_DIR$/maven-samples/single-module/src/test/java/com/example/TestGreeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <folding>
-            <element signature="e#0#1166#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
         </state>
       </provider>
     </entry>
